@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Морской бой</title>
+    <link th:href="@{/style.css?v=6}" rel="stylesheet"/>
+
+</head>
+
+<body>
+    <h1>Морской бой</h1>
+    <h2 id="currentTurn"></h2>
+    <div class="fields">
+        <div class="field1">
+            <table id="player1Board" class="player1Board"></table>
+        </div>
+        <div class="field2">
+            <table id="player2Board" class="player2Board"></table>
+        </div>
+    </div>
+    <script type="text/javascript" src="/script.js?1"></script>
+
+</body>
+
+</html>
